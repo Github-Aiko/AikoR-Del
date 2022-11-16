@@ -223,7 +223,7 @@ func (c *Controller) nodeInfoMonitor() (err error) {
 		if err != nil {
 			log.Print(err)
 		}
-		// Xray-core supports the OcspStapling certification hot renew
+		// AIKO-core supports the OcspStapling certification hot renew
 		_, _, err = lego.RenewCert(c.config.CertConfig.CertDomain, c.config.CertConfig.Email, c.config.CertConfig.CertMode, c.config.CertConfig.Provider, c.config.CertConfig.DNSEnv)
 		if err != nil {
 			log.Print(err)

@@ -45,8 +45,8 @@ func getConfig() *viper.Viper {
 		config.SetConfigType(strings.TrimPrefix(configFileExt, "."))
 		config.AddConfigPath(configPath)
 		// Set ASSET Path and Config Path for AikoR
-		os.Setenv("XRAY_LOCATION_ASSET", configPath)
-		os.Setenv("XRAY_LOCATION_CONFIG", configPath)
+		os.Setenv("AIKO_LOCATION_ASSET", configPath)
+		os.Setenv("AIKO_LOCATION_CONFIG", configPath)
 	} else {
 		// Set default config path
 		config.SetConfigName("aiko")
