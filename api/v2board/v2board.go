@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AikoCute-Offical/AikoR/api"
+	"github.com/Github-Aiko/AikoR/api"
 	"github.com/bitly/go-simplejson"
 	"github.com/go-resty/resty/v2"
 )

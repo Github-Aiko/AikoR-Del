@@ -12,7 +12,7 @@ import (
 	"github.com/go-redis/redis/v8"
 	"golang.org/x/time/rate"
 
-	"github.com/AikoCute-Offical/AikoR/api"
+	"github.com/Github-Aiko/AikoR/api"
 )
 
 type UserInfo struct {

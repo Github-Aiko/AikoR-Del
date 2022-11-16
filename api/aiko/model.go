@@ -6,7 +6,7 @@ import (
 	"github.com/bitly/go-simplejson"
 	"github.com/go-resty/resty/v2"
 
-	"github.com/AikoCute-Offical/AikoR/api"
+	"github.com/Github-Aiko/AikoR/api"
 )
 
 // APIClient create an api client to the panel.

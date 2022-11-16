@@ -5,9 +5,9 @@ import (
 
 	// Required features. Can't remove unless there is replacements.
 	// _ "github.com/Github-Aiko/Aiko-Core/app/dispatcher"
-	_ "github.com/AikoCute-Offical/AikoR/app/mydispatcher"
 	_ "github.com/Github-Aiko/Aiko-Core/app/proxyman/inbound"
 	_ "github.com/Github-Aiko/Aiko-Core/app/proxyman/outbound"
+	_ "github.com/Github-Aiko/AikoR/app/mydispatcher"
 
 	// Default commander and all its services. This is an optional feature.
 	_ "github.com/Github-Aiko/Aiko-Core/app/commander"

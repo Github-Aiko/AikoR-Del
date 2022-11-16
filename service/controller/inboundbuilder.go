@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/AikoCute-Offical/AikoR/api"
-	"github.com/AikoCute-Offical/AikoR/common/legocmd"
 	"github.com/Github-Aiko/Aiko-Core/common/net"
 	"github.com/Github-Aiko/Aiko-Core/common/uuid"
 	"github.com/Github-Aiko/Aiko-Core/core"
 	"github.com/Github-Aiko/Aiko-Core/infra/conf"
+	"github.com/Github-Aiko/AikoR/api"
+	"github.com/Github-Aiko/AikoR/common/legocmd"
 )
 
 // InboundBuilder build Inbound config for different protocol

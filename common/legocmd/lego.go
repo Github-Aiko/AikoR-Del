@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/AikoCute-Offical/AikoR/common/legocmd/cmd"
+	"github.com/Github-Aiko/AikoR/common/legocmd/cmd"
 	"github.com/urfave/cli"
 )
 

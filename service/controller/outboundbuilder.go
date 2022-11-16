@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/AikoCute-Offical/AikoR/api"
 	"github.com/Github-Aiko/Aiko-Core/common/net"
 	"github.com/Github-Aiko/Aiko-Core/core"
 	"github.com/Github-Aiko/Aiko-Core/infra/conf"
+	"github.com/Github-Aiko/AikoR/api"
 )
 
 // OutboundBuilder build freedom outbund config for addoutbound

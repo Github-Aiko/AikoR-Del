@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/AikoCute-Offical/AikoR/common/legocmd/log"
+	"github.com/Github-Aiko/AikoR/common/legocmd/log"
 	"github.com/urfave/cli"
 )
 

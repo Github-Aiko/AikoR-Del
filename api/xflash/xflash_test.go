@@ -3,8 +3,8 @@ package xflash_test
 import (
 	"testing"
 
-	"github.com/AikoCute-Offical/AikoR/api"
-	"github.com/AikoCute-Offical/AikoR/api/xflash"
+	"github.com/Github-Aiko/AikoR/api"
+	"github.com/Github-Aiko/AikoR/api/xflash"
 )
 
 func CreateClient() api.API {

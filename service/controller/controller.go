@@ -6,11 +6,6 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/AikoCute-Offical/AikoR/api"
-	"github.com/AikoCute-Offical/AikoR/app/mydispatcher"
-	"github.com/AikoCute-Offical/AikoR/common/legocmd"
-	"github.com/AikoCute-Offical/AikoR/common/limiter"
-	"github.com/AikoCute-Offical/AikoR/common/serverstatus"
 	"github.com/Github-Aiko/Aiko-Core/common/protocol"
 	"github.com/Github-Aiko/Aiko-Core/common/task"
 	"github.com/Github-Aiko/Aiko-Core/core"
@@ -18,6 +13,11 @@ import (
 	"github.com/Github-Aiko/Aiko-Core/features/outbound"
 	"github.com/Github-Aiko/Aiko-Core/features/routing"
 	"github.com/Github-Aiko/Aiko-Core/features/stats"
+	"github.com/Github-Aiko/AikoR/api"
+	"github.com/Github-Aiko/AikoR/app/mydispatcher"
+	"github.com/Github-Aiko/AikoR/common/legocmd"
+	"github.com/Github-Aiko/AikoR/common/limiter"
+	"github.com/Github-Aiko/AikoR/common/serverstatus"
 )
 
 type LimitInfo struct {

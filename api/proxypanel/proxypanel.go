@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/AikoCute-Offical/AikoR/api"
+	"github.com/Github-Aiko/AikoR/api"
 	"github.com/go-resty/resty/v2"
 )
 
@@ -258,7 +258,7 @@ func (c *APIClient) ReportNodeStatus(nodeStatus *api.NodeStatus) (err error) {
 	return nil
 }
 
-//ReportNodeOnlineUsers reports online user ip
+// ReportNodeOnlineUsers reports online user ip
 func (c *APIClient) ReportNodeOnlineUsers(onlineUserList *[]api.OnlineUser) error {
 
 	var path string

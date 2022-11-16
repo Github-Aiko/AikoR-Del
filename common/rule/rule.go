@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/AikoCute-Offical/AikoR/api"
+	"github.com/Github-Aiko/AikoR/api"
 	mapset "github.com/deckarep/golang-set"
 )
 

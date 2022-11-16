@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/AikoCute-Offical/AikoR/api"
 	"github.com/Github-Aiko/Aiko-Core/common/protocol"
 	"github.com/Github-Aiko/Aiko-Core/common/serial"
 	"github.com/Github-Aiko/Aiko-Core/infra/conf"
 	"github.com/Github-Aiko/Aiko-Core/proxy/shadowsocks"
 	"github.com/Github-Aiko/Aiko-Core/proxy/trojan"
 	"github.com/Github-Aiko/Aiko-Core/proxy/vless"
+	"github.com/Github-Aiko/AikoR/api"
 )
 
 var AEADMethod = []shadowsocks.CipherType{shadowsocks.CipherType_AES_128_GCM, shadowsocks.CipherType_AES_256_GCM, shadowsocks.CipherType_CHACHA20_POLY1305, shadowsocks.CipherType_XCHACHA20_POLY1305}

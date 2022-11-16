@@ -1,4 +1,4 @@
-module github.com/AikoCute-Offical/AikoR
+module github.com/Github-Aiko/AikoR
 
 go 1.19
 

@@ -9,8 +9,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AikoCute-Offical/AikoR/common/limiter"
-	"github.com/AikoCute-Offical/AikoR/common/rule"
 	"github.com/Github-Aiko/Aiko-Core/common"
 	"github.com/Github-Aiko/Aiko-Core/common/buf"
 	"github.com/Github-Aiko/Aiko-Core/common/log"
@@ -26,6 +24,8 @@ import (
 	"github.com/Github-Aiko/Aiko-Core/features/stats"
 	"github.com/Github-Aiko/Aiko-Core/transport"
 	"github.com/Github-Aiko/Aiko-Core/transport/pipe"
+	"github.com/Github-Aiko/AikoR/common/limiter"
+	"github.com/Github-Aiko/AikoR/common/rule"
 )
 
 var errSniffingTimeout = newError("timeout on sniffing")

@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/AikoCute-Offical/AikoR/common/limiter"
+	"github.com/Github-Aiko/AikoR/common/limiter"
 )
 
 type Config struct {
